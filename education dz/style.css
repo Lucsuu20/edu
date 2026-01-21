@@ -166,6 +166,8 @@ label{
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.418), rgba(170, 170, 170, 0.301));
     width: 500px;
     height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease;
 }
 .logo img{
     width: 400px;
@@ -237,4 +239,77 @@ label{
     background: linear-gradient(90deg, rgba(90, 20, 155, 0.418), rgba(25, 60, 216, 0.301));
     transition: 0.3s ease;
 
+}
+.logo:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.618), rgba(170, 170, 170, 0.501));
+    transition: 0.5s ease;
+}
+.books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 600px;
+    outline: rgba(255, 255, 255, 0.637) solid 2px;
+    width: 800px;
+    overflow: hidden;
+    outline: solid rgb(90, 20, 155) 2px;
+}
+.bb{
+    width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    transition: 0.5s ease;
+    height: 500px;
+}
+.bb:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.ee{
+    width: 40px;
+    position: absolute;
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 16%;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+
+}
+.ee:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.ee:focus{
+    outline: rgb(90, 20, 155) solid 2px;
+    border: rgb(90, 20, 155) solid 1px;
+    transition: 0.5s ease;
+}
+.books h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(90, 20, 155);
+    margin-bottom: 10px;
+}
+.books p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
